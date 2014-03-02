@@ -1,6 +1,28 @@
+#title {
+	color: rgba(0, 0, 0, 0.8 );
+	font-size: 3em;
+	font-family: fantasy;
+	text-align: center;
+	text-shadow: 0.4em 0.2em 0.1em gray;
+	letter-spacing: 0.05em
+}
+
+#title_menu ul li {
+	list-style-type: none;	
+	float: left;
+	list-style-image: ;
+	border-width: 1px ;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+input[type="search"] {
+
+}
+
 body {
 	background-color:#f5f5dc;
-	color:#fff;
+	color:#000;
 }
 
 #pic_menu1 {
@@ -24,11 +46,14 @@ body {
 }
 
 table {
+	clear: left;
+	position: static;
 	color:#000000;
-	border: 2px dotted black;
+	text-align: left;
+	border: 2px solid black;
 }
 
-
 footer {
+	text-align: center;
 	color:#dc143c;
 }
